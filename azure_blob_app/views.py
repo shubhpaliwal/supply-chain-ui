@@ -106,7 +106,7 @@ def execute_all_func(form_data):
         dic['parameters']['SQLConnectionString']['value'] = sqlcon
         dic['parameters']['AzureFunctionURL']['value'] = azurefunction
         dic['parameters']['Sources']['value'] = sources
-        dic['parameters']['BlobTable']['value'] = datablob
+       # dic['parameters']['BlobTable']['value'] = datablob
         if len(li_salesforce) != 0:
             dic['parameters']['SalesForceUsername']['value'] = salesforceuser
             dic['parameters']['SalesForcePassword']['value'] = salesforcepass
